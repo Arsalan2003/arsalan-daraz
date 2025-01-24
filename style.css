@@ -1,0 +1,209 @@
+/* Global styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+    color: orange;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Navbar */
+  .navbar {
+    background-color: orangered;
+    padding: 1rem;
+  }
+  
+  .navbar-brand img {
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  .navbar-nav .nav-link {
+    color: black !important;
+    font-size: 1rem;
+    padding: 8px 12px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .navbar-nav .nav-link:hover {
+    background-color: orangered;
+    border-radius: 5px;
+  }
+  
+  .navbar-toggler {
+    border-color: white;
+  }
+  
+  /* Carousel */
+  .carousel-inner img {
+    object-fit: cover;
+    height: 600px;
+  }
+  
+  /* Card section */
+  .card {
+    border: none;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  .card:hover {
+    transform: scale(1.10);
+  }
+  
+  .card-img-top {
+    object-fit: cover;
+    height: 150px;
+  }
+  
+  .card-title {
+    font-weight: bold;
+    font-style: italic;
+    font-size: 1.25rem;
+    color: orange;
+    text-align: center;
+  }
+  
+  .card-body {
+    text-align: center;
+  }
+  
+  .btn-primary {
+    background-color:orangered;
+    border: none;
+    border-radius: 25px;
+    padding: 12px 30px;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn-primary:hover {
+    background-color: orange;
+  }
+  
+  /* Heading and text */
+  h1 {
+    font-weight: bolder;
+    font-style: italic;
+    font-size: 3rem;
+    text-align: center;
+    margin-top: 40px;
+  }
+  
+  .my-5 {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+  }
+  
+  .mx-5 {
+    margin-left: 3rem;
+    margin-right: 3rem;
+  }
+  
+  /* Accordion */
+  .accordion-button {
+    background-color: orangered;
+    color: white;
+    /* font-weight: bold; */
+    border-radius: 10px;
+    font-style: italic;
+    padding: 10px;
+    transition: background-color 0.3s ease;
+    
+  }
+ 
+  .accordion-button:not(.collapsed) {
+    background-color: orange;
+  }
+  
+  .accordion-item {
+    color: orangered;
+    border: none;
+    margin-bottom: 1rem;
+  }
+  
+  .accordion-body {
+    font-size: 1rem;
+    color: black;
+  }
+  
+  /* Contact Form */
+  .form-control {
+    border-radius: 25px;
+    padding: 12px;
+    font-size: 1rem;
+    background-color: #f0f0f0;
+    border: 2px solid #ddd;
+    transition: border-color 0.3s ease;
+  }
+  
+  .form-control:focus {
+    border-color: orangered;
+    box-shadow: none;
+  }
+  
+  .btn-submit {
+    background-color: orangered;
+    border: none;
+    border-radius: 25px;
+    color: white;
+    font-size: 1rem;
+    padding: 12px 30px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn-submit:hover {
+    background-color: orange;
+  }
+  
+  /* Footer */
+  footer {
+    /* background-color:gray; */
+    color: white;
+    padding: 2rem 0;
+    text-align: center;
+  }
+  
+  footer .nav-link {
+    color: white;
+    margin-right: 20px;
+  }
+  
+  footer .nav-link:hover {
+    text-decoration: underline;
+  }
+  
+  footer .col-md-4 {
+    margin-bottom: 20px;
+  }
+  
+  footer .link-body-emphasis {
+    color: orange;
+  }
+
+
+  h4{
+    color: black;
+  }
+
+
+  .float{
+    position:fixed;
+    width:60px;
+    height:60px;
+    bottom:40px;
+    right:40px;
+    background-color:#25d366;
+    color:#FFF;
+    border-radius:50px;
+    text-align:center;
+    font-size:30px;
+    box-shadow: 2px 2px 3px #999;
+    z-index:100;
+  }
+  
+  .my-float{
+    margin-top:16px;
+  }
